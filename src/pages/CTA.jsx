@@ -1,5 +1,5 @@
 import React from 'react'
-
+import { Link } from 'react-router-dom';
 const CTA = () => {
     let width = screen.width;
     console.log(width)
@@ -7,7 +7,9 @@ const CTA = () => {
     <div className='CTA'>
       <h1>Coming to Google Playstore Soon</h1>
       <h3>Sign up to gain early access to our beta version</h3>
-      <button>Signup</button>
+      <Link to='/signup'>
+      <button >Signup</button>
+      </Link>
     </div>
   )
 }
