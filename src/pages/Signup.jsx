@@ -1,5 +1,6 @@
 import React, {useRef} from 'react'
 import emailjs from '@emailjs/browser'
+import Navbar from './Navbar';
 
 
 const Signup = () => {
@@ -28,6 +29,8 @@ const Signup = () => {
   };
   
   return (
+    <>
+    <Navbar/>
     <div className='contact'>
         <h3>Signup</h3>
         <form  ref={form} onSubmit={sendEmail}  className="custom-form" >
@@ -48,6 +51,7 @@ const Signup = () => {
     </form>
    
         </div>
+        </>
   )
 }
 

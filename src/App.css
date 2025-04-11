@@ -181,9 +181,7 @@ body{
       position: relative;
     left: 20%;
     }
-    .footer{
-    
-    }
+   
     .disclaimer h3{
     position: relative;
     left: 10%;
@@ -213,7 +211,7 @@ body{
       width: 350px;
       height: 350px;
       position: relative;
-      left: 30%;
+      left: 5px;
     }
     .form-row ul li{
      list-style: none; 
@@ -398,9 +396,7 @@ body{
       position: relative;
     left: 30%;
     }
-    .footer{
-    
-    }
+   
     .disclaimer h3{
     position: relative;
     left: 10%;
@@ -426,8 +422,8 @@ body{
   width: 350px;
   height: 350px;
   position: relative;
-  left: 20%;
-  top: 200px;
+  left: 10%;
+  top: 100px;
 }
 .form-row ul li{
  list-style: none; 
@@ -598,9 +594,7 @@ body{
       position: relative;
     left: 30%;
     }
-    .footer{
-    
-    }
+  
     .disclaimer h3{
     position: relative;
     left: 20%;
@@ -714,7 +708,7 @@ body{
 }
 .nav-links{
   display: inline;
-  background-color: #F8F8FF;
+  
 }
 
 .Hero{
@@ -832,9 +826,7 @@ left: 30%;
   position: relative;
 left: 40%;
 }
-.footer{
 
-}
 .disclaimer h3{
 position: relative;
 left: 33%;
@@ -864,6 +856,7 @@ left: 33%;
   height: 350px;
   position: relative;
   left: 35%;
+ top: 100px;
 }
 .form-row ul li{
  list-style: none; 
